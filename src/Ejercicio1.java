@@ -10,8 +10,7 @@ public class Ejercicio1 {
         
         BufferedReader in = new BufferedReader ( new InputStreamReader(System.in) );
         System.out.println("Introduce un numero: ");
-        System.out.println("Introduce un numero: ");
-        
+                
         try {
             int num = Integer.valueOf( in.readLine().trim() ).intValue();
         
